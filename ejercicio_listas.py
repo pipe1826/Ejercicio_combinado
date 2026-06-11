@@ -11,8 +11,6 @@ for x in range (5):
             print("Debe ingresar un numero entero")
 suma = sum(numeros)
 promedio = suma / len(numeros)
-("\nNúmeros ingresados:")
-for r in numeros.values():
-    print(r)
+print("\nNúmeros ingresados:", numeros)
 print("Suma:", suma)
 print("Promedio:", promedio)
